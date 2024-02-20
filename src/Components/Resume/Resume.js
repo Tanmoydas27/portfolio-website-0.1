@@ -7,7 +7,6 @@ import {AiOutlineDownload} from 'react-icons/ai';
 import {Document, Page, pdfjs} from 'react-pdf';
 import Particle from '../Particle';
 import "../Resume/Resume.css";
-import DownloadButton from '../DownloadButton';
 
 
 pdfjs.GlobalWorkerOptions.workerSrc =`//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
@@ -39,6 +38,7 @@ const Resume = () => {
                     </Button>
                 </Row>
             </Container>
+            
         </div>
         
         

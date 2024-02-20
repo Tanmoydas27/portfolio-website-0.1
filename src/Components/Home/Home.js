@@ -1,6 +1,8 @@
 import React from "react";
 import Typewritter from "../TypeWritter";
 import './home.css';
+import DownloadButton  from "./DownloadButton";
+import PDF from '../Resume/Tanmoy Das Resume Software Developer.pdf';
 
 
 
@@ -42,10 +44,14 @@ function Home() {
                   <a style={{marginLeft:'25px'}} target="_blank" aria-label="true" href="https://www.instagram.com/exclusivetanmoy.2002?igsh=YzljYTk1ODg3Zg=="><img src="instagram.png"width={35} height={35}></img></a>
                   <a style={{marginLeft:'25px'}} target="_blank" aria-label="true" href="https://www.github.com/Tanmoydas27"><img src="github.png"width={35} height={35}></img></a>
                   <a style={{marginLeft:'25px'}} target="_blank" aria-label="true" href="https://www.linkedin.com/in/tanmoy-das-cse"><img src="linkedin.png"width={35} height={35}></img></a>
-
-
                 </div> 
+                <div>
+                  {/* <a href={PDF} download="Example-PDF-document"  target="_blank"  rel="noreferrer"><button type="button" aria-label="downloadButton" className="btn px-5 mt-1" ><DownloadButton/></button></a> */}
+                  <DownloadButton/>
+                  
+                </div>
               </div>
+              
             </div>
             <br/>
           </div>
