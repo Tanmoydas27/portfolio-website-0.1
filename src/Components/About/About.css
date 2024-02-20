@@ -1,0 +1,86 @@
+
+.tech-icons {
+    font-size: 4.5em !important;
+    margin: 15px !important;
+    padding: 10px !important;
+    opacity: 0.93 !important;
+    border: 1.7px solid rgba(224, 230, 137, 0.637) !important;
+    vertical-align: middle !important;
+    /* align-items: center; */
+    text-align: center !important;
+    border-radius: 5px !important;
+    display: table !important;
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease 0s !important;
+}
+@media (min-width:768px){
+    .tech-icons {
+        margin: 10px !important;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .tech-icons {
+        margin: 10px !important;
+    }
+    .about-1st{
+        height: 1480px !important;
+    }
+}
+@media (max-width: 367px) {
+    .about-1st{
+        height: 1550px !important;
+    }
+    .details{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+}
+.tech-icons:hover {
+transform: scale(1.05) !important;
+overflow: hidden !important;
+border: 2.2px solid rgba(0, 0, 0, 0.883) !important;
+top: 0;
+backdrop-filter: blur(4px);
+}
+.tech-icons:hover .techstack{
+    color: black;
+}
+.about-1st{
+    height: 730px;
+    background-color: #e7ebef;
+    padding-top: 100px;
+}
+
+.details{
+    text-align: start;
+}
+
+.profilecard{
+    width: 350px;
+    height: 300px;
+}
+
+.skills_heading{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    /* width: 100%; */
+    background-color: black;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+
+.tools_heading{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+/* style={{ textAlign: "center",color:'white', backgroundColor:'black',width:'60%',marginLeft:'20%',paddingBottom:'5px',borderRadius:'5px'  }} */
