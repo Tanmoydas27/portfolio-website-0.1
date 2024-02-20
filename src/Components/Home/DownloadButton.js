@@ -1,6 +1,6 @@
 import React from 'react'
 import "./DownloadButton.scss";
-import PDF from '../Resume/Tanmoy Das Resume Software Developer.pdf';
+import PDF from '../../Assets/Tanmoy_Das.pdf';
 
 const DownloadButton = () => {
   return (

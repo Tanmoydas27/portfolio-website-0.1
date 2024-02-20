@@ -2,7 +2,6 @@ import React from "react";
 import Typewritter from "../TypeWritter";
 import './home.css';
 import DownloadButton  from "./DownloadButton";
-import PDF from '../Resume/Tanmoy Das Resume Software Developer.pdf';
 
 
 

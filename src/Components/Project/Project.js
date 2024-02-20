@@ -26,11 +26,10 @@ const Project = () => {
                   <div className="card-body" style={{marginTop:'-100px'}}>
                     <div className="card-title h5">Portfolio</div>
                     <p className="card-text" style={{ textAlign: "justify" }}>
-                      Personal Chat Room or Workspace to share resources and
-                      hangout with friends build with react.js, Material-UI, and
-                      Firebase. Have features which allows user for realtime
-                      messaging, image sharing as well as supports reactions on
-                      messages.
+                      Personal Portfolio Website Where I Can represent my Skills ,my knowledge about tech -stack.
+                      The Website is build with ReactJS also used many In Build npm to Style and Functionality in My Website.
+                      also Better Style to Show My Projects .
+                      
                     </p>
                     <a role="button"   tabIndex={0}   href="https://github.com/soumyajit4419/Chatify"   target="_blank"   className="btn btn-primary">
                       <svg
@@ -92,10 +91,8 @@ const Project = () => {
                   <div className="card-body" style={{marginTop:'-100px'}}>
                     <div className="card-title h5">Online Exam Portal</div>
                     <p className="card-text" style={{ textAlign: "justify" }}>
-                      My personal blog page build with Next.js and Tailwind Css
-                      which takes the content from makdown files and renders it
-                      using Next.js. Supports dark mode and easy to write blogs
-                      using markdown.
+                      A Admin Based Online Examination Platform Where I used javaScript And LocalStorage To save the data locally.
+                      Where If Student Have the Exam under The guidance of Admin ,Amdin can  create a Personalised Exam Setup like Exam Data, Access code, questions Etc.......
                     </p>
                     <a
                       role="button"
@@ -174,13 +171,9 @@ const Project = () => {
                   <div className="card-body"  style={{marginTop:'-100px'}}>
                     <div className="card-title h5">Resturant Website</div>
                     <p className="card-text" style={{ textAlign: "justify" }}>
-                      Online code and markdown editor build with react.js. Online
-                      Editor which supports html, css, and js code with instant
-                      view of website. Online markdown editor for building README
-                      file which supports GFM, Custom Html tags with toolbar and
-                      instant preview.Both the editor supports auto save of work
-                      using Local Storage
-                    </p>
+                      A Personal Project For A Resturant to Created their websites clone Using the technology of Java, J2EE, JSP, Servlet & MYSQL to build the Website.
+                        Use Tomcate for Server and Eclipse as A Compiler.   Website Detailed with the Menu ,Dicess,And The Contacts.          
+                      </p>
                     <a
                       role="button"
                       tabIndex={0}
@@ -258,12 +251,10 @@ const Project = () => {
                   <div className="card-body"  style={{marginTop:'-100px'}}>
                     <div className="card-title h5">Book Market</div>
                     <p className="card-text" style={{ textAlign: "justify" }}>
-                      Online code and markdown editor build with react.js. Online
-                      Editor which supports html, css, and js code with instant
-                      view of website. Online markdown editor for building README
-                      file which supports GFM, Custom Html tags with toolbar and
-                      instant preview.Both the editor supports auto save of work
-                      using Local Storage
+                      A Online Book Market For New as well as Second Hand or Used books for Sell with Their Rated priced.
+                      If you a Buyer You can direct Login And Buying the Books but if You are a Seller then you can join 
+                       a admin or seller based profile to add their book in the websited. Here I USed Java, J2EE, JSP, Servlet, SQL to build and Store structured data.
+                       
                     </p>
                     <a
                       role="button"
