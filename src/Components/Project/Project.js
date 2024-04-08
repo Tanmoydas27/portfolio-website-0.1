@@ -31,7 +31,7 @@ const Project = () => {
                       also Better Style to Show My Projects .
                       
                     </p>
-                    <a role="button"   tabIndex={0}   href="https://github.com/soumyajit4419/Chatify"   target="_blank"   className="btn btn-primary">
+                    <a role="button"   tabIndex={0}   href="https://tanmoydas07.vercel.app/"   target="_blank"   className="btn btn-primary">
                       <svg
                         stroke="currentColor"
                         fill="currentColor"
