@@ -1,83 +1,92 @@
-.homeDP{
-    border-radius: 50%;
-    margin-left: 20%;
-    width: 400px;
-    height: 400px;
-  
+.homeDP {
+  border-radius: 50%;
+  margin-left: 20%;
+  width: 400px;
+  height: 400px;
+
 }
+
 .homeDP:hover {
-    /* border: solid 1px rgba(147, 105, 21, 0.568);
+  /* border: solid 1px rgba(147, 105, 21, 0.568);
     box-shadow: 10px 10px; */
-    box-shadow: 0 0 2px 2px #42deff;
+  box-shadow: 0 0 2px 2px #42deff;
 }
 
-@media (max-width: 767px)
-{
-    .homeDP{
-        margin-left:5%;
-        width: 250px;
-        height: 250px;
-    }
+@media (max-width: 767px) {
+  .homeDP {
+    margin-left: 5%;
+    width: 250px;
+    height: 250px;
+  }
 
-    .homeContent{
-        margin-top: 10%;
-        margin-left: 25%;
-    }
+  .homeContent {
+    margin-top: 10%;
+    margin-left: 25%;
+  }
 }
 
-@media (min-width: 768px)  and (max-width:1200px)
-{   
-    .homeDP{
-       width: 300px;
-       height: 300px;
-       justify-content: center;
-       margin-left: -7%;
-    }
-    .homeContent{
-        margin-top: -5%;
-      margin-left: 30%;
-    }
+@media (min-width: 768px) and (max-width:1200px) {
+  .homeDP {
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    margin-left: -7%;
+  }
+
+  .homeContent {
+    margin-top: -5%;
+    margin-left: 30%;
+  }
 }
 
 
-@media (max-width:368px){
-    
-    /* .homeDP{
+@media (max-width:368px) {
+
+  /* .homeDP{
         width: 200px;
         height: 200px;
     } */
-    .homeContent{
-        margin-top: -50%;
-        justify-content: center;
-        margin-left: 50px;
-        width: 100%;
-        font-size: 0.8rem;
+  .homeContent {
+    margin-top: -50%;
+    justify-content: center;
+    margin-left: 50px;
+    width: 100%;
+    font-size: 0.8rem;
 
-    }
+  }
 }
 
 
-.type{
-    color: black;
+.type {
+  color: black;
 }
 
 .Typewriter__wrapper {
-    font-size: 2.2em !important;
-    font-weight: 600 !important;
-  }
-  .Typewriter__cursor {
-    font-size: 2.4em !important;
-    color: #000000 !important;
-  }
-  
-  @media (max-width: 767px) {
-    .Typewriter__wrapper {
-      font-size: 1.4em !important;
-      font-weight: 500 !important;
-      position: absolute !important;
-    }
-    .Typewriter__cursor {
-      display: none !important;
-    }
+  font-size: 2.2em !important;
+  font-weight: 600 !important;
+}
+
+.Typewriter__cursor {
+  font-size: 2.4em !important;
+  color: #000000 !important;
+}
+
+@media (max-width: 767px) {
+  .Typewriter__wrapper {
+    font-size: 1.4em !important;
+    font-weight: 500 !important;
+    position: absolute !important;
   }
 
+  .Typewriter__cursor {
+    display: none !important;
+  }
+}
+
+.c1 {
+  color: black;
+}
+
+.c2 {
+  color: black;
+}
