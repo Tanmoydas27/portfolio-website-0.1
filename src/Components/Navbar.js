@@ -57,11 +57,11 @@ function NavBar()
                                     <span><AiOutlineFundProjectionScreen/> {" "} Projects</span>
                                 </Nav.Link>
                             </Nav.Item>
-                            <Nav.Item className="itemcolor">
+                            {/* <Nav.Item className="itemcolor">
                                 <Nav.Link as={Link} to="/resume" onClick={()=> setExpand(false)}>
                                     <span><CgFileDocument  /> {" "} Resume</span>
                                 </Nav.Link>
-                            </Nav.Item>
+                            </Nav.Item> */}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

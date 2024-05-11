@@ -172,7 +172,7 @@ const Project = () => {
                   <a
                     role="button"
                     tabIndex={0}
-                    href="https://tanmoydas07.netlify.app/"
+                    href="https://tanmoydas07.vercel.app/"
                     target="_blank"
                     className="btn btn-primary"
                     style={{ marginLeft: 10 }}
