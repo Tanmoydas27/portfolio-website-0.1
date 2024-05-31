@@ -27,6 +27,12 @@ import vscode from "../About/images/vs-code.png";
 import linux from "../About/images/linux.png";
 import Vercel from "../About/images/Vercel.png";
 import Netlify from "../About/images/Netlify.png";
+import Firbase from "../About/images/firebase.png";
+import Docker from "../About/images/docker.png";
+import Tailwind from "../About/images/tailwind.png";
+import GoogleCloud from "../About/images/googlecloud.png";
+
+
 
 
 
@@ -64,13 +70,12 @@ function About(){
                                         "Over the last 4 years In my College, "
                                         }
                                         <span style={{color:'#4467c4',fontWeight:'bold'}}>
-                                        I Work With Manny Projects And gains good Knowledge
+                                        I Work With Manny Projects And Experienced Knowledge
                                         </span>{' '}
-                                        About The Real-World ProjectS And Industries.
-                                        My work includes
-                                        developing Websites, creating backend
-                                        servers and  implementing or Deployment.
-                                        apps.
+                                        About The Real-World Projects And Industries levels.
+                                        It includes
+                                        developing client-side and  
+                                        server-side applications with  Deployment.
                                     </p>
                                </div> 
                             </div>
@@ -86,7 +91,7 @@ function About(){
                             <div className="row" style={{ justifyContent: "center", paddingBottom: 50 }}>
                                 <div className="tech-icons col-md-2 col-4 transition">
                                     <img width="80" height="80" src={c} alt="c-logo" className='tech-icon-images'/>
-                                    <div className="techstack" >
+                                    <div className="techstack  " >
                                         <h4>C Language</h4 >
                                     </div>
                                 </div>
@@ -130,6 +135,12 @@ function About(){
                                     <img width="80" height="80" src={bootstrap} alt="bootstrap-logo"/>
                                     <div className="techstack" >
                                         <h4>BootStrap</h4 >
+                                    </div>
+                                </div>
+                                <div className="tech-icons col-md-2 col-4">
+                                    <img width="70" height="70" src={Tailwind} alt="tailwind-logo"/>
+                                    <div className="techstack" >
+                                        <h4>Tailwind</h4 >
                                     </div>
                                 </div>
                                 <div className="tech-icons col-md-2 col-4">
@@ -181,6 +192,12 @@ function About(){
                                     </div>
                                 </div>
                                 <div className="tech-icons col-md-2 col-4">
+                                    <img width="70" height="70" src={GoogleCloud} alt="google-cloud-logo"/>
+                                    <div className="techstack" >
+                                        <h4>Google cloud</h4 >
+                                    </div>
+                                </div>
+                                <div className="tech-icons col-md-2 col-4">
                                     <img width="80" height="80" src={git} alt="git-logo"/>
                                     <div className="techstack" >
                                         <h4>Git</h4 >
@@ -196,6 +213,9 @@ function About(){
                         <div className="row" style={{ width: "100%" }}>
                             <h1 className='tools_heading'>  <span>Tools</span> I Use</h1>
                             <div  className="row"   style={{ justifyContent: "center", paddingBottom: 50 }}>
+                                <div className="tech-icons col-md-2 col-4">
+                                    <img src={Docker} width={70} height={70} alt='docker-logo'/>
+                                </div>
                                 <div className="tech-icons col-md-2 col-4">
                                     <img src={windows} width={80} height={80} alt='windows-logo'/>
                                 </div>
