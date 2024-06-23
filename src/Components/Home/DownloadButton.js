@@ -8,7 +8,7 @@ const DownloadButton = () => {
       <div className="button" >
         <input id="button" type="checkbox" />
         <label htmlFor="button" >
-        <a href={PDF} download="Tanmoy-das-resume" className='atag' >
+        <a href={PDF} download="TanmoyDas_RESUME" className='atag' >
           <div className="button_inner q"style={{ marginLeft:'51%',marginTop:'-50px'}} >
            
               <i className="l fa-regular fa-circle-right"></i>
