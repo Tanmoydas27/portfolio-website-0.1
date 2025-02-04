@@ -56,10 +56,12 @@ function About(){
                                     </h3>
                                     <p style={{fontSize:'20px'}}>
                                         Hello! I'm Tanmoy, a <span  style={{color:'#4467c4',fontWeight:'bold'}}>Software Developer/Web Developer</span>  based in{' '}<span  style={{color:'#4467c4',fontWeight:'bold'}}>Kolkata, West bengal, India</span>{' '}
-                                        who's experienced in taking <span  style={{color:'#4467c4',fontWeight:'bold'}}>MERN</span> Stack applications from scratch to production.
+                                        who's experienced in taking <span  style={{color:'#4467c4',fontWeight:'bold'}}>Full</span> Stack Development from scratch to production.
                                         <br/>
                                         <br/>
-                                        I'm currently attending{' '}
+                                        I'm Currently Working On <span style={{color:'#4467c4',fontWeight:'bold'}}>
+                                        BitesVilla Pvt Ltd as a Full Stack Developer
+                                        </span>{' '} {' '}.Completed My Graduation From{' '}
                                         <span style={{color:'#4467c4',fontWeight:'bold'}}>
                                         Sister Nivedita University , West Bengal, India
                                         </span>{' '}
